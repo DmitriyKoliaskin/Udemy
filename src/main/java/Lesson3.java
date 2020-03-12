@@ -10,9 +10,11 @@ public class Lesson3 {
 
         long l = 20L;
 
-        double result = 0;
+        double result;
 
         result = i2 / d1 + d2 % i1 - l;
+
+        double s = d2 % i1;
 
         int c = a-- - --a + ++a + a++ + a;
         int d = ++b - b++ + ++b - --b;
@@ -20,5 +22,6 @@ public class Lesson3 {
         System.out.println(result);
         System.out.println(c);
         System.out.println(d);
+        System.out.println(s);
     }
 }
