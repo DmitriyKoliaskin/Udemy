@@ -4,6 +4,14 @@ public class Student {
     private String name, surName;
     private double averageM, averageE, averageI;
 
+    public Student(String name, String surName) {
+        this(name, surName, 0, 0, 0.0, 0.0, 0.0);
+    }
+
+    public Student(String name, String surName, int studentTicket) {
+        this(name, surName, studentTicket, 0, 0.0, 0.0, 0.0);
+    }
+
     public Student(String name, String surName, int studentTicket, int yearOfStudy, double averageM, double averageE, double averageI) {
         this.name = name;
         this.surName = surName;

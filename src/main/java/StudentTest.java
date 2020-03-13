@@ -16,5 +16,7 @@ public class StudentTest {
         sTest.averagePoint(student2);
         sTest.averagePoint(student3);
 
+        Student student4 = new Student("Kolobok", "Kolobkov");
+        Student student5 = new Student("Kolobok", "Kolobkov", (int)(Math.random() * 100));
     }
 }
