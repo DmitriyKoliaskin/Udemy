@@ -14,9 +14,6 @@ public class Student {
         this.averageI = averageI;
     }
 
-    public double averagePoint() {
-        return (this.averageM + this.averageE + this.averageI) / 3;
-    }
 
     public int getStudentTicket() {
         return studentTicket;

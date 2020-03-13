@@ -2,6 +2,11 @@ public class Employee {
 
     private int id, age;
     private double salary;
+
+    public double getSalary() {
+        return salary;
+    }
+
     private String surName, department;
 
     public Employee(int id, String surName, int age, String department, double salary) {
