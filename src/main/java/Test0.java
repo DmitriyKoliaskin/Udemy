@@ -7,6 +7,6 @@ public class Test0 {
     }
 
     public static void div(int i1, int i2) {
-        System.out.println(i1 % i2);
+        System.out.println(i1 / i2 + " " + i1 % i2);
     }
 }

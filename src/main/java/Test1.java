@@ -1,6 +1,6 @@
 public class Test1 {
 
-    public double radius;
+    private double radius;
 
     public Test1(double radius) {
         this.radius = radius;
@@ -14,7 +14,7 @@ public class Test1 {
         return Test0.pi * radius * radius;
     }
 
-    public void ae(double radius) {
+    public void ae() {
         System.out.println("Радиус: " + this.radius);
         System.out.println("Площадь: " + area(this.radius));
         System.out.println("Длина: " + Test1.length(this.radius));
@@ -26,7 +26,7 @@ public class Test1 {
         Test0.div(5, 2);
         Test0.div(7, 2);
         Test1 test2 = new Test1(Math.random() * 100);
-        test2.ae(test2.radius);
+        test2.ae();
     }
 
 }
