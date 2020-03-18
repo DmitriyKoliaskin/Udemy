@@ -9,7 +9,7 @@ public class Time0To6V1 {
                     break O;
                 }
                 int second = 0;
-                I: while (second < 60) {
+                while (second < 60) {
                     if (second * hours > minute) {
                         continue M;
                     }
